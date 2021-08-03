@@ -491,20 +491,20 @@
           </div>
           <div class="modal-body">
             <p class="lead">Fill out this form and we will get back to you</p>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
               <div class="mb-3">
                 <label for="first-name" class="col-form-label">
                   First Name:
                 </label>
-                <input type="text" class="form-control" id="first-name" />
+                <input type="text" class="form-control" id="first-name" name="name"/>
               </div>
               <div class="mb-3">
                 <label for="last-name" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id="last-name" />
+                <input type="text" class="form-control" id="last-name" name="name" />
               </div>
               <div class="mb-3">
                 <label for="email" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="email" />
+                <input type="email" class="form-control" id="email" name="email" />
               </div>
               <div class="mb-3">
                 <label for="phone" class="col-form-label">Phone:</label>
@@ -520,7 +520,7 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
