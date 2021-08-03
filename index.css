@@ -16,10 +16,18 @@ img{
     width: 100%;
 }
 
+body{
+  line-height: 1.6;
+}
+
 body::before {
     display: block;
     content: '';
     height: 60px;
+  }
+
+  section#contentTop{
+    margin-top: 3rem !important;
   }
   
   #map {
