@@ -46,5 +46,9 @@ body::before {
      #learnText{
        padding: 1rem !important;
      }
+
+     .p5{
+       padding: 1rem !important;
+     }
   }
   
