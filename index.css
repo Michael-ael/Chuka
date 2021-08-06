@@ -26,9 +26,6 @@ body::before {
     height: 60px;
   }
 
-  section#contentTop{
-    margin-top: 3rem !important;
-  }
   
   #map {
     width: 100%;
